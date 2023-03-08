@@ -1,0 +1,121 @@
+
+body{
+    background-color: #111827;
+}
+ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav img{
+    display: none;
+    width: 30px;
+}
+.home{
+    background-color: rgb(91, 85, 253);
+    text-align: center;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 15%;
+}
+.right-sec{
+    width:45%;
+}
+.pc{
+    width:100%;
+}
+.hi{
+    margin:  0px;
+}
+.a{
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
+img{
+    width: 250px;
+}
+.hand{
+    height: 35px;
+    width: 35px;
+    margin: 3px;
+}
+.wavehand{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    margin: 0px;
+}
+.dev{
+    color: rgb(214, 214, 80);
+    font-size: 35px;
+    margin: 10px 0px;
+}
+.left-sec{
+    display: flex;
+    flex-direction:column;
+}
+.project{
+    color:white;
+    font-size: 40px;
+    border-bottom: 10px solid blue;
+}
+.projectimg{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.projectimg div p{
+text-align: center;
+color: aliceblue;
+font-size: 15px;
+margin: 0px 0px 20px 0px;
+}
+section,footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    margin: 0px 25%;
+}
+@media screen and (max-width: 560px){
+    .left-sec{
+        align-items: center;
+    }
+    main{
+        margin: 0 20px;
+        flex-direction: column;
+    }
+    nav img{
+        display: block;
+        margin: 10px;
+    }
+    nav ul{
+        display: none;
+    }
+    nav{
+        justify-content: flex-start;
+    }
+    .wavehand{
+        flex-direction: column;
+    }
+}
+
